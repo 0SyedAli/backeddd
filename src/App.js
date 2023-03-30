@@ -25,6 +25,7 @@ function App() {
       <News />
       <Subscribe />
       <Client />
+      {/* <Footer /> */}
     </>
   );
 }

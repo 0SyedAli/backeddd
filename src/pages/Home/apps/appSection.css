@@ -1,7 +1,7 @@
 /* app section */
 
 .app-section {
-    background-color: darkgrey;
+    background-color: rgb(228, 225, 225);
     margin-top: 3.5rem ;
     padding: 2rem;
     display: flex;
@@ -9,8 +9,8 @@
     justify-content: center;
     align-items: center;
 }
-.app-section .app-line {
-    
+.app-section p {
+    color: #000;
 }
 
 .app-line {
