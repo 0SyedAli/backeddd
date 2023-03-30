@@ -23,3 +23,14 @@
     flex-wrap: wrap;
     gap: 2rem;
 }
+@media (max-width:600px) {
+    .brand-area-client h3 {
+        font-size: 30px;
+    }
+    .client-img img{
+        width: 4rem;
+    }
+    .brand-area-client {
+        padding: 3rem 1.5rem!important;
+    }
+}
