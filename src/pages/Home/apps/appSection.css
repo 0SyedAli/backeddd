@@ -1,0 +1,64 @@
+/* app section */
+
+.app-section {
+    background-color: darkgrey;
+    margin-top: 3.5rem ;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.app-section .app-line {
+    
+}
+
+.app-line {
+    height: 2.5px;
+    width: 80%;
+    background-color: #000;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+}
+
+.apps {
+    width: 80%;
+    display: flex;
+    margin-bottom: 2.5rem;
+}
+
+.app1 p {
+    padding-right: 2rem;
+}
+
+.line1 {
+    padding-right: 1rem;
+}
+
+.line {
+    height: 7px;
+}
+
+@media (max-width:992px) {
+    .app-line {
+        width: 85%!important;
+    }
+    .apps {
+        flex-direction: column;
+        width: 85%!important;
+    }
+    .line1 {
+        padding-right: 0!important;
+    }
+    .apps p {
+        font-size: 18px;
+        /* padding-right: 50px; */
+        line-height: 1.5;
+        font-family: "Poppins", sans-serif;
+        font-weight: bolder;
+    }
+    .app1 {
+        margin-bottom: 2rem;
+    }
+
+}

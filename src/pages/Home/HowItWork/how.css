@@ -1,0 +1,156 @@
+.mrProcess {
+    padding: 0 3rem;
+    margin-bottom: 5rem;
+}
+
+.btn-how {
+    /* padding: 1rem 2rem; */
+    width: 10rem;
+    height: 4rem;
+    border-radius: 0;
+    margin-bottom: 5rem;
+}
+
+.processBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.processMain {
+    width: 70%;
+    height: 2px;
+    background-color: rgb(196, 196, 196);
+    margin-bottom: 3rem;
+    position: relative;
+}
+
+.processMain .pc {
+    height: 1.3rem;
+    width: 1.3rem;
+    border-radius: 50%;
+    position: absolute;
+    background-color: rgb(58, 58, 216);
+    margin-top: -.6rem;
+    border: 3px solid #fff;
+}
+
+.processCircle1 {
+    left: 0;
+}
+
+.processCircle2 {
+    left: 50%;
+}
+
+.processCircle3 {
+    right: 0
+}
+
+.processContent {
+    display: flex;
+    width: 100%;
+}
+
+.processContent h1 {
+    padding: 0 2rem;
+    text-align: center;
+    font-size: 2rem;
+    width: 33%;
+}
+
+.section-title p {
+    color: blue;
+}
+
+.section-title .line-pr {
+    width: 1.5rem;
+    height: 2.5px;
+    background-color: #1b70f0;
+}
+
+.section-title .pr-line {
+    display: flex;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+
+.section-title .pr-line p {
+    margin: 0;
+    margin-left: 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+
+.mrRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media (max-width:992px) {
+    .processContent h1 { 
+        font-size: 1.5rem;
+    }
+}
+@media (max-width:767px) {
+    .processContent h1 { 
+        font-size: 1.5rem;
+    }
+    .section-title .pr-line p {
+        font-size: 1rem;
+        letter-spacing: 1px;
+    }
+    .section-title .pr-line .line-pr {
+        width: 1rem;
+    }
+    .section-title h1 {
+        font-size: 2rem!important;
+    }
+    .btn-how {
+        width: 8rem;
+        height: 3rem;
+    }
+    .processContent h1 {
+        font-size: 1.1rem;
+        padding: 0;
+    }
+    .processMain {
+        width: 70%;
+    }
+    .mrProcess {
+        padding: 0;
+        margin-bottom: 5rem;
+    }
+    .processCircle2 {
+        left: 45%;
+    }
+}
+@media (max-width:576px) {
+    
+    .btn-how {
+        display: none;
+    }
+    .section-title .pr-line p {
+        font-size: .8rem;
+        letter-spacing: .5px;
+    }
+    .section-title .pr-line .line-pr {
+        width: .8rem;
+    }
+    .mrProcess {
+        padding: 0 2rem;
+        margin-bottom: 5rem;
+    }
+    
+}
+@media (max-width:310px) {
+    .mrProcess {
+        padding: 0 1rem;
+        margin-bottom: 5rem;
+    }
+    .processContent h1 {
+        font-size: .95rem;
+    }
+}

@@ -1,0 +1,118 @@
+.home-container {
+    position: relative;
+}
+
+.bg-home .img-home {
+    width: 70% !important;
+    height: 34.5rem;
+    position: absolute;
+    z-index: -1;
+    margin-left: 30%;
+}
+
+.bg-home {
+    width: 100%;
+}
+.bg-text h1 {
+    font-size: calc(2rem + 1.65vw);
+    margin-bottom: 5rem;
+    font-weight: bold;
+
+}
+.bg-numbers h3 {
+    font-size: calc(1.7rem + .7vw);
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+.bg-numbers p {
+    font-size: .85rem;
+    color: #746f6f;
+    font-weight: bold;
+
+}
+.bg-text {
+    width: 55%;
+    /* padding: 0 4.8rem; */
+    padding-top: 13rem;
+    padding-left: 13rem;
+}
+.bg-numbers {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+
+@media (max-width:992px) {
+    .img-home {
+        display: none;
+    }
+    .bg-text {
+        width: 95%!important;
+        padding-top: 7rem!important;
+        padding-left: 10vw!important;
+    }
+    .bg-text h1 {
+        font-size: calc(2rem + 1.7rem)!important;
+    }
+    .bg-text h3 {
+        font-size: calc(1.7rem + 1.3rem)!important;
+    }
+    .bg-text p {
+        font-size: calc(.5rem + .7rem)!important;
+    }
+}
+@media (max-width:670px) {
+    .bg-text {
+        width: 95%!important;
+        padding-top: 7rem!important;
+        padding-left: 5vw!important;
+    }
+    .bg-text h1 {
+        font-size: calc(1.7rem + 1.7rem)!important;
+        margin-right: 2rem;
+    }
+    .bg-text h3 {
+        font-size: calc(1.1rem + 1rem)!important;
+    }
+}
+@media (max-width:440px) {
+    .bg-text {
+        width: 95%!important;
+        padding-top: 7rem!important;
+        padding-left: 5vw!important;
+    }
+    .bg-text h1 {
+        font-size: calc(1.3rem + 1.3rem)!important;
+        margin-right: 1rem!important;
+    }
+    .bg-text h3 {
+        font-size: calc(.9rem + .9rem)!important;
+    }
+    .bg-text p {
+        font-size: calc(.3rem + .5rem)!important;
+    }
+    .bg-numbers {
+        width: 100% ;
+    }
+}
+@media (max-width:300px) {
+    .bg-text {
+        width: 95%!important;
+        padding-top: 5rem!important;
+        padding-left: 5vw!important;
+    }
+    .bg-text h1 {
+        margin-bottom: 2rem!important;
+    }
+    .bg-text h1 {
+        font-size: calc(1.3rem + 1.3rem)!important;
+        margin-right: 1rem!important;
+    }
+    .bg-text h3 {
+        font-size: calc(.9rem + .9rem)!important;
+    }
+    .bg-text p {
+        font-size: calc(.6rem + .6rem)!important;
+    }
+}
