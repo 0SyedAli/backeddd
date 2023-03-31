@@ -1,25 +1,36 @@
+/* .My-Marg {
+    padding: 0 7rem;
+} */
 .mrMore {
     /* padding: 3rem; */
     padding-bottom: 0;
-    
 }
+
+.more-main {
+    margin-left: 8rem;
+    margin-right: 8rem;
+}
+
 .btn-More {
     border: 2px solid rgb(197, 112, 216);
     background-color: transparent;
     color: black;
 }
+
 .NavMore {
     width: 100%;
-    background-color:#1b70f0;
+    background-color: #1b70f0;
     margin-bottom: 3rem;
 }
+
 .NavMore ul {
     display: flex;
     padding: 0;
     margin: 0;
     justify-content: space-evenly;
 }
-.NavMore ul li{
+
+.NavMore ul li {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
@@ -28,6 +39,13 @@
     font-size: 1.3rem;
     font-weight: 550;
 
+}
+
+@media (max-width:992px) {
+    .more-main {
+        margin-left: 6rem;
+        margin-right: 6rem;
+    }
 }
 @media (max-width:767px) {
     .NavMore {

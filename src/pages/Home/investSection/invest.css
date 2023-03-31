@@ -1,83 +1,196 @@
-.invest-container{
-    padding: 2rem 8rem;
+.invest-container {
+    padding: 2rem 15rem;
 }
-.top-invest{
+
+.invest-container .card-title {
+    font-size: 1.6rem;
+}
+.invest-container .card-text {
+    font-size: 1rem;
+}
+
+.top-invest {
     display: flex;
     justify-content: space-between;
     margin-top: 4rem;
     align-items: center;
 }
+
 .invest-cards {
     display: flex;
     /* justify-content: space-between; */
     align-items: center;
     gap: 5rem;
 }
+
+.in-line {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.in-line .line-in {
+    width: 1.4rem;
+    height: 2px;
+    background-color: #1B70F0;
+}
+
+.in-line p {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: .9rem;
+    letter-spacing: 3px;
+    color: #1B70F0;
+    margin: 0;
+    margin-left: 1rem;
+}
+
 .card {
     display: flex;
     justify-content: center;
     align-items: center;
     border: none;
 }
+
 .card-img-top {
-    width: 12rem;
+    width: 70%;
 }
+
 .card-body {
     text-align: center;
 }
-.card-title {
-    font-size: 2vw;
+.mrrow {
+    display: flex;
 }
-.mrcards .card img{
-    width: 50%;
-}
-.mrrow{
-    display: flex; 
-}
+
 .btn-top {
     padding: 1rem 3rem;
 }
+
 .mrcards {
- margin-top: 2rem;
+    margin-top: 2rem;
+}
+.btn-top-invest {
+    width: 8rem;
+    height: 3.5rem;
+    border: 1px solid plum;
+    background-color: transparent;
+    color: grey;
+    border-radius: 0;
+}
+.invest-container .mrcards .card img {
+    width: 75%;
+    height: 15rem;
+}
+@media (max-width:1200px) { 
+    .invest-container {
+        padding: 2rem 9rem;
+    }
+    .invest-container .card-title {
+        font-size: 1.9vw;
+    }
+    .invest-container .card-text {
+        font-size: .9rem;
+    }
 }
 @media (max-width:992px) {
-    .invest-container{
-        padding: 2rem 3rem;
+    .invest-container {
+        padding: 2rem 6rem;
     }
+
     .top-invest {
         margin-top: 2rem;
-        margin-bottom: 4rem;
+        margin-bottom: 1rem;
     }
+
     .card-title {
         font-size: 2.5vw;
     }
+
     .card-text {
         font-size: 1.7vw;
     }
-
+    .btn-top-invest {
+        width: 8rem;
+        height: 3rem;
+        border: 1px solid plum;
+        background-color: transparent;
+        color: grey;
+        border-radius: 0;
+    }
 }
+
+@media (max-width:767px) {
+    .invest-container .card-title {
+        font-size: 4vw;
+    }
+    .invest-container .card-text {
+        font-size: 1rem;
+    }
+    .in-line .line-in {
+        width: 1.2rem;
+        height: 2px;
+        background-color: #1B70F0;
+    }
+    
+    .in-line p {
+        font-size: .7rem;
+        font-weight: 700;
+    }
+    .top-invest h1 {
+        font-size: 1.8rem;
+    }
+}
+
 @media (max-width:600px) {
     .invest-container {
         padding: 2rem 1rem;
     }
+
     .top-invest {
         margin-top: 2rem;
         margin-bottom: 4rem;
     }
+
     .top-invest h1 {
-        font-size: 8vw;
+        font-size: 6vw;
+        width: 80%;
+    }
+
+    .invest-container .mrcards .card img {
         width: 70%;
+        height: 10rem;
     }
-    .mrcards .card img{
-        width: 70%;
-    }
-    .card-title {
-        font-size: 8vw;
-    }
-    .card-text {
+
+    .invest-container .card-title {
         font-size: 4vw;
     }
+    .invest-container .card-text {
+        font-size: 1rem;
+    }
+    
     .btn-top {
         padding: .5rem 1rem;
+    }
+    .invest-container .mrcol {
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+
+}
+@media (max-width:400px) {
+    .head-invest h1{
+        font-size: 7vw;
+    }
+    .invest-container .mrcol {
+        padding: 0;
+        margin-top: 2rem;
+    }
+    .invest-container .card-title {
+        font-size: 6vw;
+    }
+    .invest-container .card-text {
+        font-size: 1rem;
     }
 }

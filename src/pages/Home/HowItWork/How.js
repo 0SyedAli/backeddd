@@ -5,12 +5,12 @@ import Button from 'react-bootstrap/Button';
 const How = () => {
     return (
         <div>
-            <div className="container mrProcess">
+            <div className="mrProcess">
                 <div className="mrRow">
                     <div className="section-title">
                         <div className="pr-line">
                             <div className="line-pr"></div>
-                            <p>POPULAR CAUSES</p>
+                            <p>How it work</p>
                         </div>
                         <h1>Backix makes it easier</h1>
                     </div>

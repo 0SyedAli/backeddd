@@ -1,5 +1,5 @@
 .mrProcess {
-    padding: 0 3rem;
+    padding: 0 8rem;
     margin-bottom: 5rem;
 }
 
@@ -9,6 +9,9 @@
     height: 4rem;
     border-radius: 0;
     margin-bottom: 5rem;
+    background-color: transparent;
+    border: 2px solid rgba(196, 196, 196, 0.363);
+    color: grey;
 }
 
 .processBar {
@@ -19,7 +22,7 @@
 }
 
 .processMain {
-    width: 70%;
+    width: 68%;
     height: 2px;
     background-color: rgb(196, 196, 196);
     margin-bottom: 3rem;
@@ -56,7 +59,7 @@
 .processContent h1 {
     padding: 0 2rem;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.7rem;
     width: 33%;
 }
 
@@ -89,67 +92,84 @@
     justify-content: space-between;
     align-items: center;
 }
+
 @media (max-width:992px) {
-    .processContent h1 { 
+    .processContent h1 {
         font-size: 1.5rem;
     }
+
+    .mrProcess {
+        padding: 0 6rem;
+    }
 }
+
 @media (max-width:767px) {
-    .processContent h1 { 
+    .processContent h1 {
         font-size: 1.5rem;
+    }
+    .mrProcess {
+        padding: 0 4rem;
     }
     .section-title .pr-line p {
         font-size: 1rem;
         letter-spacing: 1px;
     }
+
     .section-title .pr-line .line-pr {
         width: 1rem;
     }
+
     .section-title h1 {
-        font-size: 2rem!important;
+        font-size: 2rem !important;
     }
+
     .btn-how {
         width: 8rem;
         height: 3rem;
     }
+
     .processContent h1 {
         font-size: 1.1rem;
         padding: 0;
     }
+
     .processMain {
         width: 70%;
     }
-    .mrProcess {
-        padding: 0;
-        margin-bottom: 5rem;
-    }
+
     .processCircle2 {
         left: 45%;
     }
 }
+
 @media (max-width:576px) {
-    
+
     .btn-how {
         display: none;
     }
+
     .section-title .pr-line p {
         font-size: .8rem;
         letter-spacing: .5px;
     }
+
     .section-title .pr-line .line-pr {
         width: .8rem;
     }
+
     .mrProcess {
         padding: 0 2rem;
         margin-bottom: 5rem;
     }
-    
+
 }
+
 @media (max-width:310px) {
     .mrProcess {
         padding: 0 1rem;
         margin-bottom: 5rem;
     }
+
     .processContent h1 {
         font-size: .95rem;
     }

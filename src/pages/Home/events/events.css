@@ -16,7 +16,10 @@
     border-color: plum;
     font-size: 1.2rem;
 }
+.basic-tab {
+    margin: 0 5rem;
 
+}
 .main-ul {
     display: flex;
     justify-content: center;
@@ -46,7 +49,7 @@
     margin-left: -2rem;
 }
 .main-sec {
-    border: 1px solid #fff;
+    border: 2px solid darkgrey;
     padding: 2rem;
     transition: .5s ease-in-out;
     margin-bottom: 3rem;

@@ -1,0 +1,87 @@
+footer {
+    padding: 3rem 8rem;
+}
+
+.footer-main .footer-logo img {
+    width: 169px;
+    height: 33px;
+}
+
+.footer-main .widget-thumb img {
+    width: 6rem;
+    height: 5rem;
+    margin-right: 1rem;
+}
+.footer-main .widget-content h4 {
+    line-height: 19px;
+}
+.footer-main .social-icon a {
+    font-size: 1.3rem;
+    margin-right: 1.5rem;
+}
+
+.footer-main .social-icon {
+    margin: 1.5rem 0;
+}
+.footer-main .col-row {
+    margin-bottom: 2rem;
+}
+.footer-main .address-point span,
+.footer-title , .social-icon a{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 29px;
+    color: #fff;
+}
+.footer-main li {
+    list-style-type: none;
+}
+.footer-main a {
+    text-decoration: none;
+    color: #C4BEDA;
+}
+.footer-main .footer-link , .widget-latest-post{
+    padding: 0;
+}
+.footer-link , .address-point p {
+    margin-top: 1rem;
+}
+.footer-main .address-point p {
+    font-size: 1.1rem;
+}
+.footer-main .widget-latest-post li {
+    display: flex;
+    margin-bottom: 1rem;
+}
+.footer-main .widget-content a , .footer-link a{
+    font-size: 1rem;
+    font-weight: 400;
+}
+.footer-main .footer-link li{
+    margin-bottom: 1rem;
+}
+.footer-main .align-items-center {
+    margin-left: 0!important;
+}
+.footer-main .social-icon-link a {
+    margin: 0 5px;
+    border: 2px solid #1e1836;
+    height: 60px;
+    width: 60px;
+    line-height: 58px;
+    border-radius: 30px;
+    color: #8c83b0;
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+}
+.footer-main .copyright-area {
+    border-top: 1px solid #8c83b0;
+    padding-top: 2rem;
+}
+.align-items-center {
+    justify-content: space-between!important;
+    align-items: none;
+}
