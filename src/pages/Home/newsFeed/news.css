@@ -1,10 +1,27 @@
-.mrcards .card img {
-    width: 100%;
+.mrNews .causes__img img {
+    width: 100% !important;
 }
+
+.mrNews .causes__img {
+    display: flex;
+    justify-content: center !important;
+}
+
 .mrcards {
     margin-top: 0;
 }
+
+.mrNews-Row {
+    margin: 0 3rem;
+}
+
 .mrNews {
     margin-top: 4rem;
     margin-bottom: 2rem;
+}
+
+.mrNews .causes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

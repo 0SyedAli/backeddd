@@ -10,19 +10,19 @@ const AppSection = () => {
                 <div className='app1'>
                     <p>I'm a self-taught, full-time programmer self-taught</p>
                     <div className='line1'>
-                        <ProgressBar now={70} className="line" />
+                        <ProgressBar now={70} className="line line-1" />
                     </div>
                 </div>
                 <div className='app1'>
                     <p>I'm a self-taught, full-time programmer self-taught</p>
                     <div className='line1'>
-                        <ProgressBar now={70} className="line" />
+                        <ProgressBar now={70} className="line line-2" />
                     </div>
                 </div>
                 <div className='app1'>
                     <p>I'm a self-taught, full-time programmer self-taught</p>
                     <div className='line1'>
-                        <ProgressBar now={70} className="line" />
+                        <ProgressBar now={70} className="line line-3" />
                     </div>
                 </div>
             </div>

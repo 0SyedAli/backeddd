@@ -8,11 +8,11 @@ const Client = () => {
                 <h3>What Client Working With BAKIX And They Are Happy</h3>
                 <div className="client-img">
                     <img src="assets/img/brand/brand1.png" alt="cone"/>
-                    <img src="assets/img/brand/brand2.png" alt=""/>
-                    <img src="assets/img/brand/brand3.png" alt=""/>
-                    <img src="assets/img/brand/brand4.png" alt=""/>
-                    <img src="assets/img/brand/brand5.png" alt=""/>
-                    <img src="assets/img/brand/brand6.png" alt=""/>
+                    <img src="assets/img/brand/brand2.png" alt="/"/>
+                    <img src="assets/img/brand/brand3.png" alt="/"/>
+                    <img src="assets/img/brand/brand4.png" alt="/"/>
+                    <img src="assets/img/brand/brand5.png" alt="/"/>
+                    <img src="assets/img/brand/brand6.png" alt="/"/>
                 </div>
             </section>
 

@@ -11,9 +11,13 @@
     /* color: rgb(207, 206, 206); */
     font-weight: bold;
     color: #746f6f;
+    max-width: 1250px;
 
 }
-
+.navbar-brand img {
+    height: 3rem;
+    width: 14rem;
+}
 .myMenu {
     font-size: .8rem;
     font-family: sans-serif;
@@ -21,9 +25,10 @@
 }
 
 .myMenu a {
-    color: #cfcece !important;
-    font-weight: 800 !important;
-
+    color: #fff !important;
+    font-weight: 600 !important;
+    font-family: sans-serif;
+    font-size: 1rem;
 }
 
 .mrdropdown {

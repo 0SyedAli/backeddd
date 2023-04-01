@@ -13,7 +13,7 @@ const Footer = () => {
                             <div className="col-xl-3 col-lg-3 col-md-6 col-row">
                                 <div className="footer-widget mb-40">
                                     <div className="footer-logo mb-25">
-                                        <img src={logo} alt />
+                                        <img src={logo} alt='/'/>
                                     </div>
                                     <div className="social-icon mb-20">
                                         <a href="#"><FaFacebookF /></a>
@@ -66,7 +66,7 @@ const Footer = () => {
                                     <ul className="widget-latest-post">
                                         <li>
                                             <div className="widget-thumb">
-                                                <a href="#"><img src="assets/img/blog/latest/post1.jpg" alt /></a>
+                                                <a href="#"><img src="assets/img/blog/latest/post1.jpg" alt='/'/></a>
                                             </div>
                                             <div className="widget-content">
                                                 <h4><a href="#">Dolor sit amet, consectet is was
@@ -76,7 +76,7 @@ const Footer = () => {
                                         </li>
                                         <li>
                                             <div className="widget-thumb">
-                                                <a href="#"><img src="assets/img/blog/latest/post2.jpg" alt /></a>
+                                                <a href="#"><img src="assets/img/blog/latest/post2.jpg" alt='/'/></a>
                                             </div>
                                             <div className="widget-content">
                                                 <h4><a href="#">Dolor sit amet, consectet is was
@@ -86,7 +86,7 @@ const Footer = () => {
                                         </li>
                                         <li>
                                             <div className="widget-thumb">
-                                                <a href="#"><img src="assets/img/blog/latest/post3.jpg" alt /></a>
+                                                <a href="#"><img src="assets/img/blog/latest/post3.jpg" alt='/'/></a>
                                             </div>
                                             <div className="widget-content">
                                                 <h4><a href="#">Dolor sit amet, consectet is was

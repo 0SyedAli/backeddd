@@ -1,8 +1,7 @@
 /* app section */
 
 .app-section {
-    background-color: rgb(228, 225, 225);
-    margin-top: 3.5rem ;
+    background-color: #E9E7E8;
     padding: 2rem;
     display: flex;
     flex-direction: column;
@@ -36,7 +35,17 @@
 }
 
 .line {
-    height: 7px;
+    height: 5px;
+    background-color: #19142E;
+}
+.line-1 .progress-bar {
+    background-color: #1B70F0;
+}
+.line-2 .progress-bar {
+    background-color: #6100B3;
+}
+.line-3 .progress-bar {
+    background-color: #FF1849;
 }
 
 @media (max-width:992px) {

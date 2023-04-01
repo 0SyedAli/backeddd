@@ -44,8 +44,8 @@ const MoreProduct = () => {
                                 </div>
                             </div>
                             <div className="causes__caption">
-                                <a href="#" className="movie-title">WATCHBOX</a>
-                                <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos officiis eligendi earum modi ab blanditii MX App: </h4>
+
+                                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h4>
                                 <div className="causes-progress mb-25">
                                     <div className="progress">
                                         <div className="progress-bar w-75" role="progressbar" aria-valuenow={60} aria-valuemin={0} aria-valuemax={100} />
@@ -53,16 +53,16 @@ const MoreProduct = () => {
                                     <div className="causes-count mt-15 fix">
                                         <div className="count-number f-left text-left">
                                             <h2>$32,678</h2>
-                                            <span>Pledged</span>
+                                            <h2>$33,467</h2>
                                         </div>
                                         <div className="count-number f-right text-right">
-                                            <h2>$33,467</h2>
+                                            <span>Pledged</span>
                                             <span>Target</span>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="line-card"></div>
-                                <div className="causes-meta fix">
+                                <div className="causes-meta fix ">
                                     <span>BY ROMADA D</span>
                                     <span>AT LONDON</span>
                                 </div>
@@ -72,15 +72,14 @@ const MoreProduct = () => {
                     <div className="col-xl-4 col-lg-4 col-md-6">
                         <div className="causes white-bg mb-30">
                             <div className="causes__img">
-                            <img src={imgCause3} alt='/' />
+                                <img src={imgCause3} alt='/' />
                                 <div className="causes-heart">
                                     <a href="#"><i className="far fa-heart" /></a>
                                 </div>
                             </div>
                             <div className="causes__caption">
-                                <a href="#" className="movie-title">WATCHBOX</a>
 
-                                <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos officiis eligendi earum modi ab blanditii MX App: </h4>
+                                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h4>
                                 <div className="causes-progress mb-25">
                                     <div className="progress">
                                         <div className="progress-bar w-75" role="progressbar" aria-valuenow={60} aria-valuemin={0} aria-valuemax={100} />
@@ -88,17 +87,16 @@ const MoreProduct = () => {
                                     <div className="causes-count mt-15 fix">
                                         <div className="count-number f-left text-left">
                                             <h2>$32,678</h2>
-                                            <span>Pledged</span>
+                                            <h2>$33,467</h2>
                                         </div>
                                         <div className="count-number f-right text-right">
-                                            <h2>$33,467</h2>
+                                            <span>Pledged</span>
                                             <span>Target</span>
                                         </div>
                                     </div>
-
                                 </div>
                                 <div className="line-card"></div>
-                                <div className="causes-meta fix">
+                                <div className="causes-meta fix ">
                                     <span>BY ROMADA D</span>
                                     <span>AT LONDON</span>
                                 </div>
@@ -108,15 +106,14 @@ const MoreProduct = () => {
                     <div className="col-xl-4 col-lg-4 col-md-6">
                         <div className="causes white-bg mb-30">
                             <div className="causes__img">
-                            <img src={imgCause4} alt='/' />
+                                <img src={imgCause4} alt='/' />
                                 <div className="causes-heart">
                                     <a href="#"><i className="far fa-heart" /></a>
                                 </div>
                             </div>
                             <div className="causes__caption">
-                                <a href="#" className="movie-title">WATCHBOX</a>
 
-                                <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos officiis eligendi earum modi ab blanditii MX App: </h4>
+                                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h4>
                                 <div className="causes-progress mb-25">
                                     <div className="progress">
                                         <div className="progress-bar w-75" role="progressbar" aria-valuenow={60} aria-valuemin={0} aria-valuemax={100} />
@@ -124,16 +121,16 @@ const MoreProduct = () => {
                                     <div className="causes-count mt-15 fix">
                                         <div className="count-number f-left text-left">
                                             <h2>$32,678</h2>
-                                            <span>Pledged</span>
+                                            <h2>$33,467</h2>
                                         </div>
                                         <div className="count-number f-right text-right">
-                                            <h2>$33,467</h2>
+                                            <span>Pledged</span>
                                             <span>Target</span>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="line-card"></div>
-                                <div className="causes-meta fix">
+                                <div className="causes-meta fix ">
                                     <span>BY ROMADA D</span>
                                     <span>AT LONDON</span>
                                 </div>
@@ -143,15 +140,14 @@ const MoreProduct = () => {
                     <div className="col-xl-4 col-lg-4 col-md-6">
                         <div className="causes white-bg mb-30">
                             <div className="causes__img">
-                            <img src={imgCause4} alt='/' />
+                                <img src={imgCause4} alt='/' />
                                 <div className="causes-heart">
                                     <a href="#"><i className="far fa-heart" /></a>
                                 </div>
                             </div>
                             <div className="causes__caption">
-                                <a href="#" className="movie-title">WATCHBOX</a>
 
-                                <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos officiis eligendi earum modi ab blanditii MX App: </h4>
+                                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h4>
                                 <div className="causes-progress mb-25">
                                     <div className="progress">
                                         <div className="progress-bar w-75" role="progressbar" aria-valuenow={60} aria-valuemin={0} aria-valuemax={100} />
@@ -159,16 +155,16 @@ const MoreProduct = () => {
                                     <div className="causes-count mt-15 fix">
                                         <div className="count-number f-left text-left">
                                             <h2>$32,678</h2>
-                                            <span>Pledged</span>
+                                            <h2>$33,467</h2>
                                         </div>
                                         <div className="count-number f-right text-right">
-                                            <h2>$33,467</h2>
+                                            <span>Pledged</span>
                                             <span>Target</span>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="line-card"></div>
-                                <div className="causes-meta fix">
+                                <div className="causes-meta fix ">
                                     <span>BY ROMADA D</span>
                                     <span>AT LONDON</span>
                                 </div>
@@ -178,15 +174,14 @@ const MoreProduct = () => {
                     <div className="col-xl-4 col-lg-4 col-md-6">
                         <div className="causes white-bg mb-30">
                             <div className="causes__img">
-                            <img src={imgCause5} alt='/' />
+                                <img src={imgCause5} alt='/' />
                                 <div className="causes-heart">
                                     <a href="#"><i className="far fa-heart" /></a>
                                 </div>
                             </div>
                             <div className="causes__caption">
-                                <a href="#" className="movie-title">WATCHBOX</a>
 
-                                <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos officiis eligendi earum modi ab blanditii</h4>
+                                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h4>
                                 <div className="causes-progress mb-25">
                                     <div className="progress">
                                         <div className="progress-bar w-75" role="progressbar" aria-valuenow={60} aria-valuemin={0} aria-valuemax={100} />
@@ -194,16 +189,16 @@ const MoreProduct = () => {
                                     <div className="causes-count mt-15 fix">
                                         <div className="count-number f-left text-left">
                                             <h2>$32,678</h2>
-                                            <span>Pledged</span>
+                                            <h2>$33,467</h2>
                                         </div>
                                         <div className="count-number f-right text-right">
-                                            <h2>$33,467</h2>
+                                            <span>Pledged</span>
                                             <span>Target</span>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="line-card"></div>
-                                <div className="causes-meta fix">
+                                <div className="causes-meta fix ">
                                     <span>BY ROMADA D</span>
                                     <span>AT LONDON</span>
                                 </div>
@@ -213,15 +208,14 @@ const MoreProduct = () => {
                     <div className="col-xl-4 col-lg-4 col-md-6">
                         <div className="causes white-bg mb-30">
                             <div className="causes__img">
-                            <img src={imgCause6} alt='/' />
+                                <img src={imgCause6} alt='/' />
                                 <div className="causes-heart">
                                     <a href="#"><i className="far fa-heart" /></a>
                                 </div>
                             </div>
                             <div className="causes__caption">
-                                <a href="#" className="movie-title">WATCHBOX</a>
 
-                                <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos officiis eligendi earum modi ab blanditii MX App: </h4>
+                                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h4>
                                 <div className="causes-progress mb-25">
                                     <div className="progress">
                                         <div className="progress-bar w-75" role="progressbar" aria-valuenow={60} aria-valuemin={0} aria-valuemax={100} />
@@ -229,16 +223,16 @@ const MoreProduct = () => {
                                     <div className="causes-count mt-15 fix">
                                         <div className="count-number f-left text-left">
                                             <h2>$32,678</h2>
-                                            <span>Pledged</span>
+                                            <h2>$33,467</h2>
                                         </div>
                                         <div className="count-number f-right text-right">
-                                            <h2>$33,467</h2>
+                                            <span>Pledged</span>
                                             <span>Target</span>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="line-card"></div>
-                                <div className="causes-meta fix">
+                                <div className="causes-meta fix ">
                                     <span>BY ROMADA D</span>
                                     <span>AT LONDON</span>
                                 </div>

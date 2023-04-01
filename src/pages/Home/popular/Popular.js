@@ -11,7 +11,7 @@ import imgCause6 from '../../../assets/images/Song 1.svg'
 const Popular = () => {
     return (
         <div>
-            <div className="container" style={{ marginTop: '5rem', marginBottom: '5rem' }}>
+            <div className="container Popular" style={{ marginTop: '5rem', marginBottom: '5rem' }}>
                 <div className="row align-items-center">
                     <div className="col-xl-12">
                         <div className="section-title text-center mb-60">
@@ -33,8 +33,8 @@ const Popular = () => {
                                 </div>
                             </div>
                             <div className="causes__caption">
-                                <a href="#" className="movie-title">WATCHBOX</a>
-                                <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos officiis eligendi earum modi ab blanditii MX App: </h4>
+                                 
+                                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h4>
                                 <div className="causes-progress mb-25">
                                     <div className="progress">
                                         <div className="progress-bar w-75" role="progressbar" aria-valuenow={60} aria-valuemin={0} aria-valuemax={100} />
@@ -42,16 +42,16 @@ const Popular = () => {
                                     <div className="causes-count mt-15 fix">
                                         <div className="count-number f-left text-left">
                                             <h2>$32,678</h2>
-                                            <span>Pledged</span>
+                                            <h2>$33,467</h2>
                                         </div>
                                         <div className="count-number f-right text-right">
-                                            <h2>$33,467</h2>
+                                            <span>Pledged</span>
                                             <span>Target</span>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="line-card"></div>
-                                <div className="causes-meta fix">
+                                <div className="causes-meta fix ">
                                     <span>BY ROMADA D</span>
                                     <span>AT LONDON</span>
                                 </div>
@@ -67,9 +67,9 @@ const Popular = () => {
                                 </div>
                             </div>
                             <div className="causes__caption">
-                                <a href="#" className="movie-title">WATCHBOX</a>
+                                 
 
-                                <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos officiis eligendi earum modi ab blanditii MX App: </h4>
+                                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
                                 <div className="causes-progress mb-25">
                                     <div className="progress">
                                         <div className="progress-bar w-75" role="progressbar" aria-valuenow={60} aria-valuemin={0} aria-valuemax={100} />
@@ -77,10 +77,10 @@ const Popular = () => {
                                     <div className="causes-count mt-15 fix">
                                         <div className="count-number f-left text-left">
                                             <h2>$32,678</h2>
-                                            <span>Pledged</span>
+                                            <h2>$33,467</h2>
                                         </div>
                                         <div className="count-number f-right text-right">
-                                            <h2>$33,467</h2>
+                                            <span>Pledged</span>
                                             <span>Target</span>
                                         </div>
                                     </div>
@@ -103,9 +103,9 @@ const Popular = () => {
                                 </div>
                             </div>
                             <div className="causes__caption">
-                                <a href="#" className="movie-title">WATCHBOX</a>
+                                 
 
-                                <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos officiis eligendi earum modi ab blanditii MX App: </h4>
+                                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h4>
                                 <div className="causes-progress mb-25">
                                     <div className="progress">
                                         <div className="progress-bar w-75" role="progressbar" aria-valuenow={60} aria-valuemin={0} aria-valuemax={100} />
@@ -113,10 +113,10 @@ const Popular = () => {
                                     <div className="causes-count mt-15 fix">
                                         <div className="count-number f-left text-left">
                                             <h2>$32,678</h2>
-                                            <span>Pledged</span>
+                                            <h2>$33,467</h2>
                                         </div>
                                         <div className="count-number f-right text-right">
-                                            <h2>$33,467</h2>
+                                            <span>Pledged</span>
                                             <span>Target</span>
                                         </div>
                                     </div>
@@ -138,9 +138,9 @@ const Popular = () => {
                                 </div>
                             </div>
                             <div className="causes__caption">
-                                <a href="#" className="movie-title">WATCHBOX</a>
+                                 
 
-                                <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos officiis eligendi earum modi ab blanditii MX App: </h4>
+                                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h4>
                                 <div className="causes-progress mb-25">
                                     <div className="progress">
                                         <div className="progress-bar w-75" role="progressbar" aria-valuenow={60} aria-valuemin={0} aria-valuemax={100} />
@@ -148,10 +148,10 @@ const Popular = () => {
                                     <div className="causes-count mt-15 fix">
                                         <div className="count-number f-left text-left">
                                             <h2>$32,678</h2>
-                                            <span>Pledged</span>
+                                            <h2>$33,467</h2>
                                         </div>
                                         <div className="count-number f-right text-right">
-                                            <h2>$33,467</h2>
+                                            <span>Pledged</span>
                                             <span>Target</span>
                                         </div>
                                     </div>
@@ -173,9 +173,9 @@ const Popular = () => {
                                 </div>
                             </div>
                             <div className="causes__caption">
-                                <a href="#" className="movie-title">WATCHBOX</a>
+                                 
 
-                                <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos officiis eligendi earum modi ab blanditii</h4>
+                                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
                                 <div className="causes-progress mb-25">
                                     <div className="progress">
                                         <div className="progress-bar w-75" role="progressbar" aria-valuenow={60} aria-valuemin={0} aria-valuemax={100} />
@@ -183,10 +183,10 @@ const Popular = () => {
                                     <div className="causes-count mt-15 fix">
                                         <div className="count-number f-left text-left">
                                             <h2>$32,678</h2>
-                                            <span>Pledged</span>
+                                            <h2>$33,467</h2>
                                         </div>
                                         <div className="count-number f-right text-right">
-                                            <h2>$33,467</h2>
+                                            <span>Pledged</span>
                                             <span>Target</span>
                                         </div>
                                     </div>
@@ -208,9 +208,9 @@ const Popular = () => {
                                 </div>
                             </div>
                             <div className="causes__caption">
-                                <a href="#" className="movie-title">WATCHBOX</a>
+                                 
 
-                                <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos officiis eligendi earum modi ab blanditii MX App: </h4>
+                                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h4>
                                 <div className="causes-progress mb-25">
                                     <div className="progress">
                                         <div className="progress-bar w-75" role="progressbar" aria-valuenow={60} aria-valuemin={0} aria-valuemax={100} />
@@ -218,10 +218,10 @@ const Popular = () => {
                                     <div className="causes-count mt-15 fix">
                                         <div className="count-number f-left text-left">
                                             <h2>$32,678</h2>
-                                            <span>Pledged</span>
+                                            <h2>$33,467</h2>
                                         </div>
                                         <div className="count-number f-right text-right">
-                                            <h2>$33,467</h2>
+                                            <span>Pledged</span>
                                             <span>Target</span>
                                         </div>
                                     </div>

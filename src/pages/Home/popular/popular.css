@@ -96,7 +96,10 @@
     font-family: sans-serif;
     border: 2px solid rgb(210, 156, 210);
 }
-
+.Popular .causes-meta {
+    font-size: .7rem;
+    font-weight: 600;
+}
 @media (max-width:576px) {
     .btn-product {
         width: 10rem;
