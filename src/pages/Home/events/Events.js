@@ -29,19 +29,6 @@ const Events = () => {
                                     <li><a href="/">Day 02</a></li>
                                     <li><a href="/">Day 03</a></li>
                                 </ul>
-
-                                {/* <ul className="nav tab-menu justify-content-center mb-50" id="eventTab" role="tablist">
-                                    <li className="nav-item">
-                                        <a className="nav-link active show" id="home-tabe" data-toggle="tab" href="#homee" role="tab" aria-controls="home" aria-selected="true">day 01</a>
-                                    </li>
-                                    <li className="nav-item">
-                                        <a className="nav-link" id="profile-tabe" data-toggle="tab" href="#profilee" role="tab" aria-controls="profile" aria-selected="false">day 02</a>
-                                    </li>
-                                    <li className="nav-item">
-                                        <a className="nav-link" id="contact-tabe" data-toggle="tab" href="#contacte" role="tab" aria-controls="contact" aria-selected="false">day 03</a>
-                                    </li>
-                                </ul> */}
-
                                 <div className="tab-content" id="emyTabContent">
                                     <div className="tab-pane fade " id="homee" role="tabpanel" aria-labelledby="home-tab">
                                         <div className="event-wrapper mb-40">

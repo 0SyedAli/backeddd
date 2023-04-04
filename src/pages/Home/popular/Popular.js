@@ -11,7 +11,7 @@ import imgCause6 from '../../../assets/images/Song 1.svg'
 const Popular = () => {
     return (
         <div>
-            <div className="container Popular" style={{ marginTop: '5rem', marginBottom: '5rem' }}>
+            <div className="container Popular" style={{ paddingTop: '5rem', paddingBottom: '5rem' }}>
                 <div className="row align-items-center">
                     <div className="col-xl-12">
                         <div className="section-title text-center mb-60">

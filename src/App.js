@@ -11,9 +11,12 @@ import News from './pages/Home/newsFeed/News';
 import Popular from './pages/Home/popular/Popular';
 import Subscribe from './pages/Home/subscribe/Subscribe';
 import './App.css'
+import OnGoingMain from './pages/onGoingProject/sliderOnGoing/OnGoingMain';
 function App() {
   return (
     <>
+    {/* Home Section */}
+
       <Navbar />
       <Home />
       <AppSection />
@@ -26,6 +29,10 @@ function App() {
       <Subscribe />
       <Client />
       <Footer />
+
+      {/* OnGoing Section */}
+      {/* <Navbar />
+      <OnGoingMain /> */}
     </>
   );
 }

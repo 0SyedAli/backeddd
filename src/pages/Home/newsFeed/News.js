@@ -64,10 +64,10 @@ const News = () => {
                                     <a href="#"><i className="far fa-heart" /></a>
                                 </div>
                             </div>
-                            <div className="causes__caption">
+                            <div className="causes__caption cap-news">
                                  
                                 <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h4>
-                                <div className="causes-progress mb-25">
+                                {/* <div className="causes-progress mb-25">
                                     <div className="progress">
                                         <div className="progress-bar w-75" role="progressbar" aria-valuenow={60} aria-valuemin={0} aria-valuemax={100} />
                                         <div className="progress-bar w-75" role="progressbar" aria-valuenow={60} aria-valuemin={0} aria-valuemax={100} />
@@ -82,7 +82,7 @@ const News = () => {
                                             <span>Target</span>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
                                 <div className="line-card"></div>
                                 <div className="causes-meta fix ">
                                     <span>BY ROMADA D</span>
@@ -99,11 +99,11 @@ const News = () => {
                                     <a href="#"><i className="far fa-heart" /></a>
                                 </div>
                             </div>
-                            <div className="causes__caption">
+                            <div className="causes__caption cap-news">
                                  
 
                                 <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                                <div className="causes-progress mb-25">
+                                {/* <div className="causes-progress mb-25">
                                     <div className="progress">
                                         <div className="progress-bar w-75" role="progressbar" aria-valuenow={60} aria-valuemin={0} aria-valuemax={100} />
                                     </div>
@@ -118,7 +118,7 @@ const News = () => {
                                         </div>
                                     </div>
 
-                                </div>
+                                </div> */}
                                 <div className="line-card"></div>
                                 <div className="causes-meta fix">
                                     <span>BY ROMADA D</span>
@@ -135,11 +135,11 @@ const News = () => {
                                     <a href="#"><i className="far fa-heart" /></a>
                                 </div>
                             </div>
-                            <div className="causes__caption">
+                            <div className="causes__caption cap-news">
                                  
 
                                 <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h4>
-                                <div className="causes-progress mb-25">
+                                {/* <div className="causes-progress mb-25">
                                     <div className="progress">
                                         <div className="progress-bar w-75" role="progressbar" aria-valuenow={60} aria-valuemin={0} aria-valuemax={100} />
                                     </div>
@@ -153,7 +153,7 @@ const News = () => {
                                             <span>Target</span>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
                                 <div className="line-card"></div>
                                 <div className="causes-meta fix">
                                     <span>BY ROMADA D</span>
@@ -170,7 +170,7 @@ const News = () => {
                                     <a href="#"><i className="far fa-heart" /></a>
                                 </div>
                             </div>
-                            <div className="causes__caption">
+                            <div className="causes__caption cap-news">
                                  
 
                                 <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h4>
@@ -205,7 +205,7 @@ const News = () => {
                                     <a href="#"><i className="far fa-heart" /></a>
                                 </div>
                             </div>
-                            <div className="causes__caption">
+                            <div className="causes__caption cap-news">
                                  
 
                                 <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
@@ -240,7 +240,7 @@ const News = () => {
                                     <a href="#"><i className="far fa-heart" /></a>
                                 </div>
                             </div>
-                            <div className="causes__caption">
+                            <div className="causes__caption cap-news">
                                  
 
                                 <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h4>

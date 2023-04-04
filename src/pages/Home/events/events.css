@@ -9,17 +9,16 @@
     color: #fff;
 }
 .btn-Event {
-    width: 9rem;
-    height: 3rem;
+    width: 12rem;
+    height: 3.5rem;
     border-radius: 0px;
     background-color: transparent;
-    border-color: plum;
+    border-color: rgb(104, 102, 102);
     font-size: 1.2rem;
 }
-.basic-tab {
-    margin: 0 5rem;
-
-}
+.event-area .pr-line p {
+    color: #1B70F0;
+} 
 .main-ul {
     display: flex;
     justify-content: center;

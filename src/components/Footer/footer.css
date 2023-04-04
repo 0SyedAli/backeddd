@@ -1,5 +1,6 @@
 footer {
-    padding: 3rem 8rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 .footer-main .footer-logo img {
@@ -84,4 +85,15 @@ footer {
 .align-items-center {
     justify-content: space-between!important;
     align-items: none;
+}
+@media (max-width: 992px) {
+    .copyright-area .d--flex {
+        display: flex;
+        justify-content: space-around;
+    }   
+}
+@media (max-width: 500px) {
+    footer {
+        padding: 3rem 1rem;
+    }
 }

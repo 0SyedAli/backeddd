@@ -10,7 +10,8 @@ import imgCause6 from '../../../assets/images/Song 1.svg'
 const MoreProduct = () => {
     return (
         <div>
-            <div className="mrMore more-main">
+            {/* <div className="mrMore"> */}
+            <div className="container Popular" style={{ paddingTop: '5rem', paddingBottom: '5rem' }}>
                 <div className="mrRow">
                     <div className="section-title">
                         <div className="pr-line">

@@ -25,3 +25,15 @@
     flex-direction: column;
     align-items: center;
 }
+.mrNews .causes-meta {
+    font-size: .7rem;
+    font-weight: 600;
+}
+@media (max-width:500px) {
+    .mrNews-Row {
+        margin: 0;
+    }
+    .cap-news {
+        padding: 1rem!important;
+    }
+}

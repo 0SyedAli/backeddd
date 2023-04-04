@@ -1,0 +1,17 @@
+.onGoingProject-main {
+    width: 100%;
+    display: flex;
+}
+.onGoingProject-main .left-onGoing {
+    width: 53%;
+    border: 1px solid red;
+    padding-top: 5rem;
+
+}
+.onGoingProject-main .left-onGoing h1{
+    font-size: 4.5rem;
+    font-weight: 900;
+}
+.onGoingProject-main .left-onGoing p{
+    
+}

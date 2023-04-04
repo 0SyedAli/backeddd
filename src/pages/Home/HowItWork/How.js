@@ -5,7 +5,7 @@ import Button from 'react-bootstrap/Button';
 const How = () => {
     return (
         <div>
-            <div className="mrProcess">
+            <div className="container mrProcess">
                 <div className="mrRow">
                     <div className="section-title">
                         <div className="pr-line">
