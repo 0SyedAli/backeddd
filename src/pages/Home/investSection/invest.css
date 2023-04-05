@@ -86,7 +86,7 @@
 }
 @media (max-width:1200px) { 
     .invest-container {
-        padding: 2rem 9rem;
+        padding: 2rem 4rem;
     }
     .invest-container .card-title {
         font-size: 1.9vw;
@@ -97,7 +97,7 @@
 }
 @media (max-width:992px) {
     .invest-container {
-        padding: 2rem 6rem;
+        padding: 2rem 2rem;
     }
 
     .top-invest {
@@ -119,6 +119,13 @@
         background-color: transparent;
         color: grey;
         border-radius: 0;
+    }
+    .invest-container .mrcards .card img {
+        width: 75%;
+        height: 10rem;
+    }
+    .card .card-body {
+        padding: 0!important;
     }
 }
 

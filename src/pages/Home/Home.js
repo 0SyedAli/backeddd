@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <>
       <div className="fix-container">
-        <div className="home-container container">
+        <div className="home-container">
           <div className="home-text">
             <h1>Invest Your Amount With Our Project</h1>
             <div className="line1">
@@ -28,9 +28,9 @@ const Home = () => {
           <div className="bg-home">
             <img className="img-home" src={bgHome} alt="Logo" />
           </div>
-          <div className="headphone-home">
+          {/* <div className="headphone-home">
             <img src={bgHeadPhone} alt="/" />
-          </div>
+          </div> */}
         </div>
       </div>
     </>
